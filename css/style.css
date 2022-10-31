@@ -61,6 +61,9 @@ body {
   z-index: 999;
 }
 #gorg {
+  width: 510px;
+}
+#gorg div {
   display: none;
 }
 .first_section .third > .gorg {
@@ -88,6 +91,7 @@ body {
   letter-spacing: 0.16em;
   background: rgba(0, 0, 0, 0.6);
 }
+
 .heart img {
   margin-top: 15px;
   width: 84px;
@@ -213,8 +217,9 @@ body {
   height: 60px;
 }
 .hars_u_pesa img {
-  transform: 1s linear;
+  transition: 1s linear;
   width: 500px;
+  align-self: flex-end;
 }
 .surnames {
   margin-bottom: 90px;
@@ -231,6 +236,7 @@ body {
     width: 302px;
     height: 332px;
     background-size: contain;
+    align-self: flex-start;
   }
   .gorg .names {
     width: 125px;
